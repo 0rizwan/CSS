@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px 100px 10px 100px;
+        }
+
+        .container {
+            background-color: blue;
+            color: aliceblue;
+            text-align: center;
+            height: 40vh;
+            width: 40vw;
+            margin: auto;
+        }
+
+        .para {
+            border: 2px solid rgb(8, 244, 201);
+        }
+
+        .box {
+            background-color: red;
+            color: rgb(161, 233, 18);
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 200px;
+            left: 30px;
+        }
+
+        .box2 {
+            background-color: rgb(70, 7, 197);
+            color: rgb(161, 233, 18);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+        }
+
+        .box3 {
+            background-color: brown;
+            width: 150px;
+            height: 200px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam dolore veritatis,
+            corporis facilis ut aperiam! Nobis numquam temporibus quas?</p>
+        <div class="box">
+            I am a box
+        </div>
+    </div>
+    <div class="box2">this is absolurte position box</div>
+    <div class="box3">this is fixed position box</div>
+
+</body>
+
+</html>

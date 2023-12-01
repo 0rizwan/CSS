@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip Path</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .div-one{
+            background: url("https://i02.appmifile.com/images/2019/11/25/61221316-193c-4d24-a882-4eb18b34f24c.png") no-repeat;
+            height: 300px;
+            width: 300px;
+            clip-path: ellipse(90px 200px at 50% 90%);
+            /* clip-path: circle(50px at 54% 55%); */
+            /* clip-path: polygon(0 0, 300px 0, 0 300px); */
+        }
+        .div-two{
+            margin-top: 100px;
+            background-color: white;
+            width: 600px;
+            height: 400px;
+            clip-path: polygon(0 100px, 400px 150px, 400px 0, 600px 200px, 400px 400px, 400px 250px, 0 300px);
+               
+        }
+    </style>
+</head>
+<body>
+    <div class="div-one"></div>
+    <div class="div-two"></div>
+</body>
+</html>

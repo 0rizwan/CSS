@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    background: grey;
+    /* top right bottom left (clockwise) */
+    margin: 10px 5px 10px 5px;
+    padding: 10px 3px 5px 3px;
+    border: 4px double black;
+    border-radius: 50px;
+}
+
+.margin1{
+  background: blue;
+  margin: 10px;
+}
+.margin2{
+  background: violet;
+  margin: 7px;
+}
+
+.header{
+  background: black;
+  color: white;
+  border: 3px double yellow;
+  margin: 5px;
+}
+
+.footer{
+  background: grey;
+  color: whitesmoke;
+  text-align: center;
+}

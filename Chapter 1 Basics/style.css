@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    border: 5px solid;
+}
+#first{
+    background-color: orange;
+    color: black;
+}
+#second{
+    background-color: antiquewhite;
+    color: yellow;
+}
+.color{
+    background-color: rgb(240, 237, 251);
+}

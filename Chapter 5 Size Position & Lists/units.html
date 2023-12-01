@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        .parent {
+            font-size: 10px;
+        }
+
+        .child {
+            font-size: 2em;
+        }
+
+        .rem {
+            font-size: 3rem;
+        }
+
+        html {
+            font-size: 10px;
+        }
+
+        .box1 {
+            background-color: blue;
+            height: 50vh;
+            width: 40vw;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- em-relative to parent element;s font height -->
+    <!-- rem-unit relative to html tag  -->
+    <!-- vh-unit relative to 1% viewport height -->
+    <!-- vw- unit relative to 1% viewport width -->
+
+    <div class="parent">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, minima.</p>
+        <div class="child">
+            Lorem ipsum dolor sit amet.
+        </div>
+    </div>
+    <div class="rem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corporis!
+    </div>
+</body>
+
+</html>

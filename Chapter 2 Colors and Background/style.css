@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.red{
+  background-color: blue;
+  color: yellow;
+  width: 700px;
+  height: 1000px;
+  border: 3px solid black;
+  background-image: url('10messi.jpg');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  /* background: red url('10messi.jpg') center; */
+}
+
+/* practice set */
+
+ul{
+  background-color: grey;
+  color: white;
+}
+#first{
+  text-align: center;
+}
